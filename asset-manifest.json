@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lomap_es4c/static/css/main.475a80bb.css",
-    "main.js": "/lomap_es4c/static/js/main.6821a1b9.js",
+    "main.css": "/lomap_es4c/static/css/main.c1aa0d57.css",
+    "main.js": "/lomap_es4c/static/js/main.d4e16b44.js",
     "index.html": "/lomap_es4c/index.html",
-    "main.475a80bb.css.map": "/lomap_es4c/static/css/main.475a80bb.css.map",
-    "main.6821a1b9.js.map": "/lomap_es4c/static/js/main.6821a1b9.js.map"
+    "main.c1aa0d57.css.map": "/lomap_es4c/static/css/main.c1aa0d57.css.map",
+    "main.d4e16b44.js.map": "/lomap_es4c/static/js/main.d4e16b44.js.map"
   },
   "entrypoints": [
-    "static/css/main.475a80bb.css",
-    "static/js/main.6821a1b9.js"
+    "static/css/main.c1aa0d57.css",
+    "static/js/main.d4e16b44.js"
   ]
 }
