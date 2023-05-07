@@ -1,7 +1,0 @@
-version: '3.5'
-volumes:
-services:
-  webapp:
-    build: ./webapp
-    ports:
-      - "3000:3000"
