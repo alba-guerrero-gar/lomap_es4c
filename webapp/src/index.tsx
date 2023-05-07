@@ -1,13 +1,21 @@
-  import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { SessionProvider } from "@inrupt/solid-ui-react";
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+import React from "react";
+
+const app = (
+  <SessionProvider >
+    <BrowserRouter basename="/welcome">
+      <App />
+    </BrowserRouter>
+  </SessionProvider>
 );
 
-
+const container = document.getElementById("root");
+if (container) {
+  const root = createRoot(container);
+  root.render(app);
+}
